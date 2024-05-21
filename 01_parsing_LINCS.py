@@ -21,7 +21,7 @@ row_ChemicalPert = LINCS_chemicalPert_RNAseq.row_metadata_df
 print('get raw dataframe')
     
 #%% 03 set subset condition: cell. Here we use endometrosis cell lines as example
-cell = pd.read_csv('Endometrosis_cell_.csv').iloc[:, 0].tolist()
+cell = pd.read_csv('uterus_cell_.csv').iloc[:, 0].tolist()
 
 if len(cell) == 0:
     subset_col = col_ChemicalPert
