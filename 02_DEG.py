@@ -39,7 +39,7 @@ def read_csv_with_progress(csv_file_path, chunk_size=100): #defaut chunk size is
 
 print ('01-1 func prepared')
 #%% 01-2 Get LINCS df
-""" source of df is generated from 1_parsing_LINCS """
+""" source of df is generated from 01_parsing_LINCS """
 #file_path_df = 'sub_df_uterus_test.csv' # this is a test file
 file_path_df = 'sub_df_uterus.csv' # this is for real
 print ('Set dataframe file path, loading...')
